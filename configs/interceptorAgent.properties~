@@ -1,0 +1,60 @@
+# Flume configuration for Spooling SpoolingAgent.
+interceptorAgent.sources = kafka-source-1
+interceptorAgent.channels = kafka-theft-channel kafka-other-channel
+interceptorAgent.sinks = kafka-theft-crime kafka-other-crime
+
+# The source for this agent is the topic the spoolingAgent sinked to, data_in
+# rather than spooldir type of source, use a kafka source
+interceptorAgent.sources.kafka-source-1.type = org.apache.flume.source.kafka.KafkaSource
+interceptorAgent.sources.kafka-source-1.zookeeperConnect = localhost:2181
+# What topic does this source consume?
+interceptorAgent.sources.kafka-source-1.topic = data_in
+interceptorAgent.sources.kafka-source-1.batchSize = 100
+interceptorAgent.sources.kafka-source-1.channels = kafka-theft-channel kafka-other-channel
+
+# Configure an interceptor to add a header to the event based on a regular expression
+interceptorAgent.sources.kafka-source-1.interceptors = re
+interceptorAgent.sources.kafka-source-1.interceptors.re.type = regex_extractor
+interceptorAgent.sources.kafka-source-1.interceptors.re.regex=,THEFT,(.*?),
+interceptorAgent.sources.kafka-source-1.interceptors.re.serializers=theft
+# The current documetation for "DEFAULT" type is incorrect and lists "default" the interceptor does not case fold and must be "DEFAULT"
+interceptorAgent.sources.kafka-source-1.interceptors.re.serializers.theft.type=DEFAULT
+interceptorAgent.sources.kafka-source-1.interceptors.re.serializers.theft.name=crime_type
+
+#org.apache.flume.channel.BifurcatingMultiplexingChannelSelector
+# Route the event to the crime_theft or crime_other topic based on the heder extracted in the interceptor
+interceptorAgent.sources.kafka-source-1.selector.type = multiplexing
+# the regex_extractor interceptor added a header crime_type=THEFT
+interceptorAgent.sources.kafka-source-1.selector.header = crime_type
+# If the "crime_type" header has "THEFT" put event on the kafka-theft-channel channel
+interceptorAgent.sources.kafka-source-1.selector.mapping.THEFT = kafka-theft-channel
+# If there is no crime_type header, or if its value is NOT "THEFT" put on kafka-other-channel
+interceptorAgent.sources.kafka-source-1.selector.mapping.default = kafka-other-channel
+
+
+# Configure channel backing "THEFT" crimes
+interceptorAgent.channels.kafka-theft-channel.type = org.apache.flume.channel.kafka.KafkaChannel
+interceptorAgent.channels.kafka-theft-channel.brokerList = localhost:9092
+interceptorAgent.channels.kafka-theft-channel.topic = theft_channel
+interceptorAgent.channels.kafka-theft-channel.zookeeperConnect = localhost:2181
+
+# Configure sink to "crime_theft" topic
+interceptorAgent.sinks.kafka-theft-crime.channel = kafka-theft-channel
+interceptorAgent.sinks.kafka-theft-crime.type = org.apache.flume.sink.kafka.KafkaSink
+interceptorAgent.sinks.kafka-theft-crime.batchSize = 100
+interceptorAgent.sinks.kafka-theft-crime.brokerList = localhost:9092
+interceptorAgent.sinks.kafka-theft-crime.topic = crime_theft
+
+
+# Configure channel backing "OTHER" crimes
+interceptorAgent.channels.kafka-other-channel.type = org.apache.flume.channel.kafka.KafkaChannel
+interceptorAgent.channels.kafka-other-channel.brokerList = localhost:9092
+interceptorAgent.channels.kafka-other-channel.topic = other_channel
+interceptorAgent.channels.kafka-other-channel.zookeeperConnect = localhost:2181
+
+# Configure sink to "crime_other" topic
+interceptorAgent.sinks.kafka-other-crime.channel = kafka-other-channel
+interceptorAgent.sinks.kafka-other-crime.type = org.apache.flume.sink.kafka.KafkaSink
+interceptorAgent.sinks.kafka-other-crime.batchSize = 100
+interceptorAgent.sinks.kafka-other-crime.brokerList = localhost:9092
+interceptorAgent.sinks.kafka-other-crime.topic = crime_other
