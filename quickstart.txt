@@ -1,0 +1,131 @@
+
+
+Download Hadoop
+http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-2.7.1/hadoop-2.7.1.tar.gz
+
+
+# First, get the latest copy of the tutorial from the git repo and
+# compile them to get any dependency issues downloaded
+
+# Clone the git repo
+git clone https://github.com/mbkeane/BigDataTechCon.git
+
+# I test this from /tmp/ knowing it will be blown away upon reboot.
+cd /tmp
+
+cd /tmp/BigDataTechCon/flume/
+mvn install
+
+cd /tmp/BigDataTechCon/camus/
+mvn install
+
+
+# extract Kafka
+cd /tmp
+tar -xzvf ~/Downloads/kafka_2.10-0.8.2.2.tgz
+cd kafka_2.10-0.8.2.2
+
+# extract Hadoop
+cd /tmp
+tar -xzvf ~/Downloads/hadoop-2.7.1.tar.gz
+
+# Zookeeper shell
+cd /tmp/kafka_2.10-0.8.2.2
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+# KafkaServer shell
+cd /tmp/kafka_2.10-0.8.2.2
+bin/kafka-server-start.sh config/server.properties
+
+
+bin/kafka-topics.sh --list --zookeeper localhost:2181
+
+
+# Topics shell
+## Create topics
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic spooling_agent_channel
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic data_in
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic filtered_channel
+bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic filtered_data
+bin/kafka-topics.sh --list --zookeeper localhost:2181
+
+
+####################################################################################################
+Kafka environment set up.
+####################################################################################################
+
+# consume each topic
+bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic spooling_agent_channel --from-beginning
+bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic data_in --from-beginning
+bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic filtered_channel --from-beginning
+bin/kafka-console-consumer.sh --zookeeper localhost:2181 --topic filtered_data --from-beginning
+
+
+# Clean up Kafka for a fresh restart/install for a fresh start
+bin/kafka-server-stop.sh
+bin/zookeeper-server-stop.sh
+rm -rf /tmp/zookeeper /tmp/kafka-logs
+rm -rf /tmp/kafka_2.10-0.8.2.2/logs
+rm -rf /tmp/BigDataTechCon/spool/*
+
+
+####################################################################################################
+Flumin' it
+
+# Spooling Directory Flume Agent
+# Main Class
+org.apache.flume.node.Application
+
+# VM arguements
+-Dflume.monitoring.type=http -Dflume.monitoring.port=12344 -DagentName=spoolingAgent -Dlog4j.configuration=file:/tmp/BigDataTechCon/configs/log4j.properties
+
+# Program Arguments
+-f /tmp/BigDataTechCon/configs/spoolingAgent.properties -n spoolingAgent
+
+
+# Main Class
+org.apache.flume.node.Application
+
+# VM arguements
+-Dflume.monitoring.type=http -Dflume.monitoring.port=12345 -DagentName=spoolingAgent -Dlog4j.configuration=file:/tmp/BigDataTechCon/configs/log4j.properties
+
+# Program Arguments
+-f /tmp/BigDataTechCon/configs/interceptorAgent.properties -n interceptorAgent
+
+####################
+# Uncompress test data
+cd /tmp/BigDataTechCon/data/
+tar -xzvf crime_data.tar.gz
+cd /tmp/BigDataTechCon
+
+####################
+# Sending data
+mkdir /tmp/BigDataTechCon/data
+cp /tmp/BigDataTechCon/data/crime_data_1.csv /tmp/BigDataTechCon/spool/.
+
+
+####################################################################################################
+Camusing it
+####################################################################################################
+
+# Hadoop shell
+bin/hadoop jar /tmp/BigDataTechCon/configs/camus-tutorial.jar -P /tmp/BigDataTechCon/configs/camus.properties -Dlog4j.configuration=/home/mkeane/bigdatatechcon/configs/log4j.properties -DagentName=camus
+
+# If you configured your email address in /tmp/BigDataTechCon/configs/camus.properties go check your email
+
+##################################################
+Now, lets debug it
+
+# copy
+cp /tmp/BigDataTechCon/data/crime_data_2.csv /tmp/BigDataTechCon/spool/.
+
+export HADOOP_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,address=6161,server=y,suspend=y"
+
+
+#bin/hadoop jar /home/mkeane/bigdatatechcon/camus/target/camus-tutorial.jar -P /home/mkeane/bigdatatechcon/configs/camus.properties -Dlog4j.configuration=/home/mkeane/bigdatatechcon/configs/log4j.properties -DagentName=camus
+
+
+http://www.conversantmedia.com/careers
+
+Have meaningful conversations that last
+a lifetime, across every device, channel and media format.
