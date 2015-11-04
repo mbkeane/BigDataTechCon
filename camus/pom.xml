@@ -1,77 +1,17 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.conversantmedia.tutorial</groupId>
-	<artifactId>flume</artifactId>
-	<packaging>jar</packaging>
-	<version>1.0-SNAPSHOT</version>
-	<name>flume</name>
-	<url>http://maven.apache.org</url>
-
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.conversantmedia.tutorial</groupId>
+  <artifactId>camus</artifactId>
+  <packaging>jar</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>camus</name>
+  <url>http://maven.apache.org</url>
 	<properties>
 		<jdk.version>1.7</jdk.version>
 	</properties>
-	<dependencies>
-		<!-- Flume dependencies -->
-		<dependency>
-			<groupId>org.apache.flume</groupId>
-			<artifactId>flume-ng-node</artifactId>
-			<version>1.6.0</version>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.flume</groupId>
-			<artifactId>flume-ng-sdk</artifactId>
-			<version>1.6.0</version>
-		</dependency>
 
-		<dependency>
-			<groupId>org.apache.flume</groupId>
-			<artifactId>flume-ng-configuration</artifactId>
-			<version>1.6.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.flume</groupId>
-			<artifactId>flume-ng-core</artifactId>
-			<version>1.6.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.flume.flume-ng-sinks</groupId>
-			<artifactId>flume-hdfs-sink</artifactId>
-			<version>1.6.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.flume.flume-ng-sinks</groupId>
-			<artifactId>flume-irc-sink</artifactId>
-			<version>1.6.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.flume.flume-ng-sinks</groupId>
-			<artifactId>flume-ng-morphline-solr-sink</artifactId>
-			<version>1.6.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.flume.flume-ng-channels</groupId>
-			<artifactId>flume-kafka-channel</artifactId>
-			<version>1.6.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.flume.flume-ng-sinks</groupId>
-			<artifactId>flume-ng-kafka-sink</artifactId>
-			<version>1.6.0</version>
-		</dependency>
-
-		<dependency>
-			<groupId>org.apache.flume.flume-ng-sources</groupId>
-			<artifactId>flume-kafka-source</artifactId>
-			<version>1.6.0</version>
-		</dependency>
-
+<dependencies>
 
 		<!-- Camus dependencies -->
 		<dependency>
@@ -94,6 +34,7 @@
 			<artifactId>camus-kafka-coders</artifactId>
 			<version>1.0</version>
 		</dependency>
+<!--
 		<dependency>
 			<groupId>org.apache.avro</groupId>
 			<artifactId>avro</artifactId>
@@ -104,6 +45,7 @@
 			<artifactId>easymock</artifactId>
 			<version>3.3.1</version>
 		</dependency>
+-->
 <!--
 		<dependency>
 			<groupId>org.apache.hadoop</groupId>
@@ -155,7 +97,8 @@
 			<scope>test</scope>
 		</dependency>
 
-	</dependencies>
+</dependencies>
+
 <build>
 <finalName>camus-tutorial</finalName>
 		<plugins>
@@ -193,6 +136,6 @@
 		</plugin>
 
 		</plugins>
-
 	</build>
+
 </project>
