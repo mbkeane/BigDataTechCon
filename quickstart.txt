@@ -120,12 +120,4 @@ Now, lets debug it
 cp /tmp/BigDataTechCon/data/crime_data_2.csv /tmp/BigDataTechCon/spool/.
 
 export HADOOP_OPTS="-Xdebug -Xrunjdwp:transport=dt_socket,address=6161,server=y,suspend=y"
-
-
-#bin/hadoop jar /home/mkeane/bigdatatechcon/camus/target/camus-tutorial.jar -P /home/mkeane/bigdatatechcon/configs/camus.properties -Dlog4j.configuration=/home/mkeane/bigdatatechcon/configs/log4j.properties -DagentName=camus
-
-
-http://www.conversantmedia.com/careers
-
-Have meaningful conversations that last
-a lifetime, across every device, channel and media format.
+bin/hadoop jar /tmp/BigDataTechCon/configs/camus-tutorial.jar -P /tmp/BigDataTechCon/configs/camus.properties -Dlog4j.configuration=/home/mkeane/bigdatatechcon/configs/log4j.properties -DagentName=camus
