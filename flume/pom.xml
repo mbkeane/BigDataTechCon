@@ -157,7 +157,6 @@
 
 	</dependencies>
 <build>
-<finalName>camus-tutorial</finalName>
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -169,28 +168,6 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
-		<plugin>
-		  <groupId>org.apache.maven.plugins</groupId>
-		  <artifactId>maven-shade-plugin</artifactId>
-		  <version>2.3</version>
-		  <executions>
-		     <!-- Run shade goal on package phase -->
-		    <execution>
-			<phase>package</phase>
-			<goals>
-				<goal>shade</goal>
-			</goals>
-			<configuration>
-			  <transformers>
-				<!-- add Main-Class to manifest file -->
-                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-					<mainClass>com.linkedin.camus.etl.kafka.CamusJob</mainClass>
-				</transformer>
-			  </transformers>
-			</configuration>
-		      </execution>
-		  </executions>
-		</plugin>
 
 		</plugins>
 
