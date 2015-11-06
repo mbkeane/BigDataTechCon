@@ -21,8 +21,8 @@ In this tutorial I do all the work in /tmp/,  I simply extract hadoop and kafka 
 
 ### Downloads
 - [x]  Camus git repository
-{% highlight bash %}
+```
 git clone https://github.com/linkedin/camus.git
 cd camus
 mvn install
-{% endhighlight %}
+```
