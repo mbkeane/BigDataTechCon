@@ -1,10 +1,15 @@
 # Flume, Kafka + Camus Tutorial
 
 [Tutorial Requirements](https://github.com/mbkeane/BigDataTechCon/wiki/Tutorial-Requirements)
+
 [Anatomy of a Flume Flow](https://github.com/mbkeane/BigDataTechCon/wiki/The-basic-anatomy-of-a-Flume-Agent-and-a-Flume-Flow)
+
 [Exercise 1 Flume agent spooling from the file system using Kafka Channel and Kafka Sink](https://github.com/mbkeane/BigDataTechCon/wiki/Exercise-1)
+
 [Exercise 2 Add a second flume agent with a Kafka source and chained interceptors](https://github.com/mbkeane/BigDataTechCon/wiki/Exercise-2)
+
 [Exercise 3 Use Camus to pull data from Kafka to HDFS](https://github.com/mbkeane/BigDataTechCon/wiki/Exercise-3)
+
 [Exercise 4 Debug and Camu map reduce job](https://github.com/mbkeane/BigDataTechCon/wiki/Exercise-4)
 
 
