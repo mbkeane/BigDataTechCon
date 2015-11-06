@@ -13,16 +13,47 @@ The integration of Flume + Kafka + Camus does require implementing a couple Camu
 ### Requirements
 - [x]  Linux environment.  All the work in here has been done on a laptop running Ubuntu in IntelliJ IDE.
 - [x]  Maven - both project are maven projects.
-- [x]  Camus - To my knowledge Camus is not in an public Maven repository.  Conversant added Camus to their internal repository and if your organization uses Camus you'll probably want to do the same.
-- [x] Kafka - To really demonstrate Flume's Kafka integration we will use Kafka sources, channels and sinks for Flume.
-- [x] Hadoop - you need an Hadoop client to run Camus.
+- [ ]  Camus - To my knowledge Camus is not in an public Maven repository.  Conversant added Camus to their internal repository and if your organization uses Camus you'll probably want to do the same.
+- [ ] Kafka - To really demonstrate Flume's Kafka integration we will use Kafka sources, channels and sinks for Flume.
+- [ ] Hadoop - you need an Hadoop client to run Camus.
 
 In this tutorial I do all the work in /tmp/,  I simply extract hadoop and kafka from /tmp/.  Since /tmp/ is removed each time I reboot nothing is left cluttering up my disk drive when I reboot.  If you are going to continue working with this over time you will want to replace /tmp/ with a more permanent location.  All configurations and paths in this tutorial give explicit full paths (ex /tmp/BigDataTechCon/config/log4j.properties).  If you are running out of someplace other than /tmp/ you  will need to update your paths accordingly.
 
 ### Downloads
-- [x]  Camus git repository
+- [x]  Clone and build the Camus repository
 ```
+cd /tmp/
 git clone https://github.com/linkedin/camus.git
 cd camus
 mvn install
 ```
+- [x]  Clone and build the tutorial repository
+```
+cd /tmp/
+git clone https://github.com/mbkeane/BigDataTechCon.git
+cd /tmp/BigDataTechCon/flume
+mvn install
+cd /tmp/BigDataTechCon/camus
+mvn install
+```
+
+- [x]  Download Kafka from  `https://www.apache.org/dyn/closer.cgi?path=/kafka/0.8.2.2/kafka_2.10-0.8.2.2.tgz`
+```
+cd /tmp
+tar -xzvf ~/Downloads/kafka_2.10-0.8.2.2.tgz
+cd kafka_2.10-0.8.2.2
+```
+
+- [x]  Download Hadoop from `http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-2.7.1/hadoop-2.7.1.tar.gz`
+```
+cd /tmp
+tar -xzvf ~/Downloads/hadoop-2.7.1.tar.gz
+```
+
+*NOTE* this tutorial is not meant to be an indepth study of Flume, Kafka or Camus.  For a better understanding of Flume and its use cases I recommend Steve Hoffman's [Apache Flume: Distributed Log Collection for Hadoop - Second Edition](http://www.amazon.com/Apache-Flume-Distributed-Collection-Hadoop/dp/1784392170/ref=sr_1_2?s=books&ie=UTF8&qid=1446338183&sr=1-2&keywords=flume).
+
+### Anatomy of a Flume Agent and a Flume Flow
+
+Exercise 1  Flume Spooling Agent sink to Kafka Topic.
+
+A common use case
