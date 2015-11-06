@@ -1,5 +1,13 @@
 # Flume, Kafka + Camus Tutorial
 
+[Tutorial Requirements](https://github.com/mbkeane/BigDataTechCon/wiki/Tutorial-Requirements)
+[Anatomy of a Flume Flow](https://github.com/mbkeane/BigDataTechCon/wiki/The-basic-anatomy-of-a-Flume-Agent-and-a-Flume-Flow)
+[Exercise 1 Flume agent spooling from the file system using Kafka Channel and Kafka Sink](https://github.com/mbkeane/BigDataTechCon/wiki/Exercise-1)
+[Exercise 2 Add a second flume agent with a Kafka source and chained interceptors](https://github.com/mbkeane/BigDataTechCon/wiki/Exercise-2)
+[Exercise 3 Use Camus to pull data from Kafka to HDFS](https://github.com/mbkeane/BigDataTechCon/wiki/Exercise-3)
+[Exercise 4 Debug and Camu map reduce job](https://github.com/mbkeane/BigDataTechCon/wiki/Exercise-4)
+
+
 ### The Motivation Behind this Tutorial
 Part of my teams responsiblity at [Conversant](https://conversantmedia.com) is maintain Flume flows which collect 100 billion log lines per day.  In the spring of 2015 our current Flume agents were writing to (or 'sinking' in Flume parlance) a Hadoop cluster using the  [MapR](https://mapr.com) distribution.  A new [Cloudera](https://conversantmedia.comhttp://www.cloudera.com/content/www/en-us.html) hadoop cluster had been stood up and I was tasked with the "trivial" task of migrating the Flume flow end point from the MapR cluster to the Cloudera cluster.  Beyond the distributions differenced the work load difference was vastly different. The MapR cluster was owned by my team.  All jobs run on this cluster were map reduce jobs owned by my team.  The Cloudera cluster was shared by multiple teams including an army of decision scientists learning how to write [Spark](http://spark.apache.org) jobs.  My trivial task became my spring 2015 nightmare.  I had heard stories of Flume not playing well with Cloudera and [Hortonworks](http://hortonworks.com) hadoop distributions.  Rarely had we seen a problem on the MapR cluster.  Yes the Flume agents sinking to the MapR cluster would backup when the cluster was under heavy load, particulary during the "copy" phase of large mapreduce jobs but ultimately the copy phase completed and the Flume backup drained with just a delay in data arrival.  On the new Cloudera cluster the results were not the same.  Resource demands were much higher.  Flume has no YARN integration and would consistently fail to open, close or rename files when writing to the cluster.  Thousands of timeout exceptions were written to the namenode and datanode logs.  Untimately there was data loss and data corruption.
 

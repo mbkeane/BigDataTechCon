@@ -26,11 +26,9 @@
       <file leaf-file-name="CsvMessageDecoder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/conversantmedia/tutorial/camus/CsvMessageDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.419355">
-              <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="60" column="58" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -38,7 +36,7 @@
       <file leaf-file-name="EtlRecordReader.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-etl-kafka/1.0/camus-etl-kafka-1.0.jar!/com/linkedin/camus/etl/kafka/mapred/EtlRecordReader.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="5.586207">
+            <state vertical-scroll-proportion="0.0">
               <caret line="15" column="55" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="55" />
               <folding />
             </state>
@@ -48,12 +46,10 @@
       <file leaf-file-name="CsvRecordWriterProvider.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/conversantmedia/tutorial/camus/CsvRecordWriterProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78356713">
-              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.6666667">
+              <caret line="107" column="33" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2290#2291#0" expanded="true" />
-                <element signature="e#2313#2314#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,9 +68,80 @@
       <file leaf-file-name="Calendar.java" pinned="false" current-in-tab="false">
         <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/util/Calendar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.483871">
+            <state vertical-scroll-proportion="0.0">
               <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
-              <folding />
+              <folding>
+                <element signature="e#0#140383#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#44847#44848#0" expanded="false" />
+                <element signature="e#44933#44934#0" expanded="false" />
+                <element signature="e#64001#64002#0" expanded="false" />
+                <element signature="e#64053#64054#0" expanded="false" />
+                <element signature="e#64097#64098#0" expanded="false" />
+                <element signature="e#64167#64168#0" expanded="false" />
+                <element signature="e#64226#64227#0" expanded="false" />
+                <element signature="e#64280#64281#0" expanded="false" />
+                <element signature="e#66340#66341#0" expanded="false" />
+                <element signature="e#66409#66410#0" expanded="false" />
+                <element signature="e#69447#69448#0" expanded="false" />
+                <element signature="e#69502#69503#0" expanded="false" />
+                <element signature="e#70577#70578#0" expanded="false" />
+                <element signature="e#70627#70628#0" expanded="false" />
+                <element signature="e#71057#71058#0" expanded="false" />
+                <element signature="e#71104#71105#0" expanded="false" />
+                <element signature="e#73319#73320#0" expanded="false" />
+                <element signature="e#73355#73356#0" expanded="false" />
+                <element signature="e#73857#73858#0" expanded="false" />
+                <element signature="e#73894#73895#0" expanded="false" />
+                <element signature="e#80819#80820#0" expanded="false" />
+                <element signature="e#80863#80864#0" expanded="false" />
+                <element signature="e#90398#90399#0" expanded="false" />
+                <element signature="e#90455#90456#0" expanded="false" />
+                <element signature="e#93732#93733#0" expanded="false" />
+                <element signature="e#93787#93788#0" expanded="false" />
+                <element signature="e#93933#93934#0" expanded="false" />
+                <element signature="e#93987#93988#0" expanded="false" />
+                <element signature="e#94081#94082#0" expanded="false" />
+                <element signature="e#94135#94136#0" expanded="false" />
+                <element signature="e#94310#94311#0" expanded="false" />
+                <element signature="e#94364#94365#0" expanded="false" />
+                <element signature="e#101498#101499#0" expanded="false" />
+                <element signature="e#101545#101546#0" expanded="false" />
+                <element signature="e#101589#101590#0" expanded="false" />
+                <element signature="e#101642#101643#0" expanded="false" />
+                <element signature="e#101682#101683#0" expanded="false" />
+                <element signature="e#101757#101758#0" expanded="false" />
+                <element signature="e#102997#102998#0" expanded="false" />
+                <element signature="e#103046#103047#0" expanded="false" />
+                <element signature="e#104241#104242#0" expanded="false" />
+                <element signature="e#104289#104290#0" expanded="false" />
+                <element signature="e#109287#109288#0" expanded="false" />
+                <element signature="e#109349#109350#0" expanded="false" />
+                <element signature="e#113593#113594#0" expanded="false" />
+                <element signature="e#113620#113621#0" expanded="false" />
+                <element signature="e#113734#113735#0" expanded="false" />
+                <element signature="e#113769#113770#0" expanded="false" />
+                <element signature="e#114406#114407#0" expanded="false" />
+                <element signature="e#114444#114445#0" expanded="false" />
+                <element signature="e#114728#114729#0" expanded="false" />
+                <element signature="e#114758#114759#0" expanded="false" />
+                <element signature="e#115531#115532#0" expanded="false" />
+                <element signature="e#115568#115569#0" expanded="false" />
+                <element signature="e#116705#116706#0" expanded="false" />
+                <element signature="e#116750#116751#0" expanded="false" />
+                <element signature="e#117196#117197#0" expanded="false" />
+                <element signature="e#117224#117225#0" expanded="false" />
+                <element signature="e#117963#117964#0" expanded="false" />
+                <element signature="e#118020#118021#0" expanded="false" />
+                <element signature="e#119595#119596#0" expanded="false" />
+                <element signature="e#119652#119653#0" expanded="false" />
+                <element signature="e#120273#120274#0" expanded="false" />
+                <element signature="e#120330#120331#0" expanded="false" />
+                <element signature="e#129039#129040#0" expanded="false" />
+                <element signature="e#129079#129080#0" expanded="false" />
+                <element signature="e#140317#140318#0" expanded="false" />
+                <element signature="e#140379#140380#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,8 +152,20 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="527" column="41" selection-start-line="527" selection-start-column="41" selection-end-line="527" selection-end-column="41" />
               <folding>
-                <element signature="e#19556#19557#0" expanded="true" />
-                <element signature="e#19600#19601#0" expanded="true" />
+                <element signature="e#0#31176#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#10111#10112#0" expanded="false" />
+                <element signature="e#10136#10137#0" expanded="false" />
+                <element signature="e#11868#11869#0" expanded="false" />
+                <element signature="e#11926#11927#0" expanded="false" />
+                <element signature="e#18602#18603#0" expanded="false" />
+                <element signature="e#18672#18673#0" expanded="false" />
+                <element signature="e#21817#21818#0" expanded="false" />
+                <element signature="e#21875#21876#0" expanded="false" />
+                <element signature="e#22029#22030#0" expanded="false" />
+                <element signature="e#22078#22079#0" expanded="false" />
+                <element signature="e#23369#23370#0" expanded="false" />
+                <element signature="e#23426#23427#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -97,7 +176,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="176" column="22" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="22" />
-              <folding />
+              <folding>
+                <element signature="e#0#27667#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#11168#11169#0" expanded="false" />
+                <element signature="e#11223#11224#0" expanded="false" />
+                <element signature="e#11812#11813#0" expanded="false" />
+                <element signature="e#11874#11875#0" expanded="false" />
+                <element signature="e#15593#15594#0" expanded="false" />
+                <element signature="e#15632#15633#0" expanded="false" />
+                <element signature="e#22669#22670#0" expanded="false" />
+                <element signature="e#22713#22714#0" expanded="false" />
+                <element signature="e#26129#26130#0" expanded="false" />
+                <element signature="e#26170#26171#0" expanded="false" />
+                <element signature="e#26767#26768#0" expanded="false" />
+                <element signature="e#26797#26798#0" expanded="false" />
+                <element signature="e#27543#27544#0" expanded="false" />
+                <element signature="e#27601#27602#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,7 +201,7 @@
       <file leaf-file-name="CamusWrapper.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-api/1.0/camus-api-1.0.jar!/com/linkedin/camus/coders/CamusWrapper.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.724138">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding />
             </state>
@@ -115,7 +211,7 @@
       <file leaf-file-name="MessageDecoder.class" pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-api/1.0/camus-api-1.0.jar!/com/linkedin/camus/coders/MessageDecoder.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.068966">
+            <state vertical-scroll-proportion="0.0">
               <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding />
             </state>
@@ -164,10 +260,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1920" />
-    <option name="y" value="-4" />
-    <option name="width" value="1920" />
-    <option name="height" value="1084" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -192,6 +288,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -361,8 +459,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,6 +471,7 @@
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Remote.camus on 6161">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -647,6 +744,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -700,42 +803,79 @@
       <option name="number" value="Default" />
       <updated>1446593584892</updated>
       <workItem from="1446593589942" duration="9263000" />
+      <workItem from="1446672972233" duration="849000" />
+      <workItem from="1446820542115" duration="624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9263000" />
+    <option name="totallyTimeSpent" value="10736000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1920" y="-4" width="1920" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24972618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24972618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39978564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -751,80 +891,26 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-api/1.0/camus-api-1.0.jar!/com/linkedin/camus/coders/MessageDecoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.068966">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-api/1.0/camus-api-1.0.jar!/com/linkedin/camus/coders/CamusWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.724138">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.3/joda-time-2.3.jar!/org/joda/time/format/DateTimeFormatter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.560641">
-          <caret line="322" column="20" selection-start-line="322" selection-start-column="20" selection-end-line="322" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/util/TimeZone.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conversantmedia/tutorial/camus/CsvMessageDecoder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="527" column="41" selection-start-line="527" selection-start-column="41" selection-end-line="527" selection-end-column="41" />
-          <folding>
-            <element signature="e#19556#19557#0" expanded="true" />
-            <element signature="e#19600#19601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/time/ZoneId.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="176" column="22" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="22" />
+          <caret line="60" column="58" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="58" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/util/Calendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.483871">
-          <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/text/SimpleDateFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7454128">
-          <caret line="1029" column="18" selection-start-line="1029" selection-start-column="18" selection-end-line="1029" selection-end-column="18" />
-          <folding>
-            <element signature="e#23443#23444#0" expanded="true" />
-            <element signature="e#23515#23516#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-etl-kafka/1.0/camus-etl-kafka-1.0.jar!/com/linkedin/camus/etl/kafka/mapred/EtlRecordReader.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="5.586207">
+        <state vertical-scroll-proportion="0.0">
           <caret line="15" column="55" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/conversantmedia/tutorial/camus/CsvMessageDecoder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conversantmedia/tutorial/camus/CsvRecordWriterProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.419355">
-          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -839,14 +925,513 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#140383#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#44847#44848#0" expanded="false" />
+            <element signature="e#44933#44934#0" expanded="false" />
+            <element signature="e#64001#64002#0" expanded="false" />
+            <element signature="e#64053#64054#0" expanded="false" />
+            <element signature="e#64097#64098#0" expanded="false" />
+            <element signature="e#64167#64168#0" expanded="false" />
+            <element signature="e#64226#64227#0" expanded="false" />
+            <element signature="e#64280#64281#0" expanded="false" />
+            <element signature="e#66340#66341#0" expanded="false" />
+            <element signature="e#66409#66410#0" expanded="false" />
+            <element signature="e#69447#69448#0" expanded="false" />
+            <element signature="e#69502#69503#0" expanded="false" />
+            <element signature="e#70577#70578#0" expanded="false" />
+            <element signature="e#70627#70628#0" expanded="false" />
+            <element signature="e#71057#71058#0" expanded="false" />
+            <element signature="e#71104#71105#0" expanded="false" />
+            <element signature="e#73319#73320#0" expanded="false" />
+            <element signature="e#73355#73356#0" expanded="false" />
+            <element signature="e#73857#73858#0" expanded="false" />
+            <element signature="e#73894#73895#0" expanded="false" />
+            <element signature="e#80819#80820#0" expanded="false" />
+            <element signature="e#80863#80864#0" expanded="false" />
+            <element signature="e#90398#90399#0" expanded="false" />
+            <element signature="e#90455#90456#0" expanded="false" />
+            <element signature="e#93732#93733#0" expanded="false" />
+            <element signature="e#93787#93788#0" expanded="false" />
+            <element signature="e#93933#93934#0" expanded="false" />
+            <element signature="e#93987#93988#0" expanded="false" />
+            <element signature="e#94081#94082#0" expanded="false" />
+            <element signature="e#94135#94136#0" expanded="false" />
+            <element signature="e#94310#94311#0" expanded="false" />
+            <element signature="e#94364#94365#0" expanded="false" />
+            <element signature="e#101498#101499#0" expanded="false" />
+            <element signature="e#101545#101546#0" expanded="false" />
+            <element signature="e#101589#101590#0" expanded="false" />
+            <element signature="e#101642#101643#0" expanded="false" />
+            <element signature="e#101682#101683#0" expanded="false" />
+            <element signature="e#101757#101758#0" expanded="false" />
+            <element signature="e#102997#102998#0" expanded="false" />
+            <element signature="e#103046#103047#0" expanded="false" />
+            <element signature="e#104241#104242#0" expanded="false" />
+            <element signature="e#104289#104290#0" expanded="false" />
+            <element signature="e#109287#109288#0" expanded="false" />
+            <element signature="e#109349#109350#0" expanded="false" />
+            <element signature="e#113593#113594#0" expanded="false" />
+            <element signature="e#113620#113621#0" expanded="false" />
+            <element signature="e#113734#113735#0" expanded="false" />
+            <element signature="e#113769#113770#0" expanded="false" />
+            <element signature="e#114406#114407#0" expanded="false" />
+            <element signature="e#114444#114445#0" expanded="false" />
+            <element signature="e#114728#114729#0" expanded="false" />
+            <element signature="e#114758#114759#0" expanded="false" />
+            <element signature="e#115531#115532#0" expanded="false" />
+            <element signature="e#115568#115569#0" expanded="false" />
+            <element signature="e#116705#116706#0" expanded="false" />
+            <element signature="e#116750#116751#0" expanded="false" />
+            <element signature="e#117196#117197#0" expanded="false" />
+            <element signature="e#117224#117225#0" expanded="false" />
+            <element signature="e#117963#117964#0" expanded="false" />
+            <element signature="e#118020#118021#0" expanded="false" />
+            <element signature="e#119595#119596#0" expanded="false" />
+            <element signature="e#119652#119653#0" expanded="false" />
+            <element signature="e#120273#120274#0" expanded="false" />
+            <element signature="e#120330#120331#0" expanded="false" />
+            <element signature="e#129039#129040#0" expanded="false" />
+            <element signature="e#129079#129080#0" expanded="false" />
+            <element signature="e#140317#140318#0" expanded="false" />
+            <element signature="e#140379#140380#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/util/TimeZone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="527" column="41" selection-start-line="527" selection-start-column="41" selection-end-line="527" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#31176#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#10111#10112#0" expanded="false" />
+            <element signature="e#10136#10137#0" expanded="false" />
+            <element signature="e#11868#11869#0" expanded="false" />
+            <element signature="e#11926#11927#0" expanded="false" />
+            <element signature="e#18602#18603#0" expanded="false" />
+            <element signature="e#18672#18673#0" expanded="false" />
+            <element signature="e#21817#21818#0" expanded="false" />
+            <element signature="e#21875#21876#0" expanded="false" />
+            <element signature="e#22029#22030#0" expanded="false" />
+            <element signature="e#22078#22079#0" expanded="false" />
+            <element signature="e#23369#23370#0" expanded="false" />
+            <element signature="e#23426#23427#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/time/ZoneId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="176" column="22" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#27667#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#11168#11169#0" expanded="false" />
+            <element signature="e#11223#11224#0" expanded="false" />
+            <element signature="e#11812#11813#0" expanded="false" />
+            <element signature="e#11874#11875#0" expanded="false" />
+            <element signature="e#15593#15594#0" expanded="false" />
+            <element signature="e#15632#15633#0" expanded="false" />
+            <element signature="e#22669#22670#0" expanded="false" />
+            <element signature="e#22713#22714#0" expanded="false" />
+            <element signature="e#26129#26130#0" expanded="false" />
+            <element signature="e#26170#26171#0" expanded="false" />
+            <element signature="e#26767#26768#0" expanded="false" />
+            <element signature="e#26797#26798#0" expanded="false" />
+            <element signature="e#27543#27544#0" expanded="false" />
+            <element signature="e#27601#27602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-api/1.0/camus-api-1.0.jar!/com/linkedin/camus/coders/CamusWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-api/1.0/camus-api-1.0.jar!/com/linkedin/camus/coders/MessageDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conversantmedia/tutorial/camus/CsvMessageDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-etl-kafka/1.0/camus-etl-kafka-1.0.jar!/com/linkedin/camus/etl/kafka/mapred/EtlRecordReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/conversantmedia/tutorial/camus/CsvRecordWriterProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78356713">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2290#2291#0" expanded="true" />
-            <element signature="e#2313#2314#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/io/FilterOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#140383#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#44847#44848#0" expanded="false" />
+            <element signature="e#44933#44934#0" expanded="false" />
+            <element signature="e#64001#64002#0" expanded="false" />
+            <element signature="e#64053#64054#0" expanded="false" />
+            <element signature="e#64097#64098#0" expanded="false" />
+            <element signature="e#64167#64168#0" expanded="false" />
+            <element signature="e#64226#64227#0" expanded="false" />
+            <element signature="e#64280#64281#0" expanded="false" />
+            <element signature="e#66340#66341#0" expanded="false" />
+            <element signature="e#66409#66410#0" expanded="false" />
+            <element signature="e#69447#69448#0" expanded="false" />
+            <element signature="e#69502#69503#0" expanded="false" />
+            <element signature="e#70577#70578#0" expanded="false" />
+            <element signature="e#70627#70628#0" expanded="false" />
+            <element signature="e#71057#71058#0" expanded="false" />
+            <element signature="e#71104#71105#0" expanded="false" />
+            <element signature="e#73319#73320#0" expanded="false" />
+            <element signature="e#73355#73356#0" expanded="false" />
+            <element signature="e#73857#73858#0" expanded="false" />
+            <element signature="e#73894#73895#0" expanded="false" />
+            <element signature="e#80819#80820#0" expanded="false" />
+            <element signature="e#80863#80864#0" expanded="false" />
+            <element signature="e#90398#90399#0" expanded="false" />
+            <element signature="e#90455#90456#0" expanded="false" />
+            <element signature="e#93732#93733#0" expanded="false" />
+            <element signature="e#93787#93788#0" expanded="false" />
+            <element signature="e#93933#93934#0" expanded="false" />
+            <element signature="e#93987#93988#0" expanded="false" />
+            <element signature="e#94081#94082#0" expanded="false" />
+            <element signature="e#94135#94136#0" expanded="false" />
+            <element signature="e#94310#94311#0" expanded="false" />
+            <element signature="e#94364#94365#0" expanded="false" />
+            <element signature="e#101498#101499#0" expanded="false" />
+            <element signature="e#101545#101546#0" expanded="false" />
+            <element signature="e#101589#101590#0" expanded="false" />
+            <element signature="e#101642#101643#0" expanded="false" />
+            <element signature="e#101682#101683#0" expanded="false" />
+            <element signature="e#101757#101758#0" expanded="false" />
+            <element signature="e#102997#102998#0" expanded="false" />
+            <element signature="e#103046#103047#0" expanded="false" />
+            <element signature="e#104241#104242#0" expanded="false" />
+            <element signature="e#104289#104290#0" expanded="false" />
+            <element signature="e#109287#109288#0" expanded="false" />
+            <element signature="e#109349#109350#0" expanded="false" />
+            <element signature="e#113593#113594#0" expanded="false" />
+            <element signature="e#113620#113621#0" expanded="false" />
+            <element signature="e#113734#113735#0" expanded="false" />
+            <element signature="e#113769#113770#0" expanded="false" />
+            <element signature="e#114406#114407#0" expanded="false" />
+            <element signature="e#114444#114445#0" expanded="false" />
+            <element signature="e#114728#114729#0" expanded="false" />
+            <element signature="e#114758#114759#0" expanded="false" />
+            <element signature="e#115531#115532#0" expanded="false" />
+            <element signature="e#115568#115569#0" expanded="false" />
+            <element signature="e#116705#116706#0" expanded="false" />
+            <element signature="e#116750#116751#0" expanded="false" />
+            <element signature="e#117196#117197#0" expanded="false" />
+            <element signature="e#117224#117225#0" expanded="false" />
+            <element signature="e#117963#117964#0" expanded="false" />
+            <element signature="e#118020#118021#0" expanded="false" />
+            <element signature="e#119595#119596#0" expanded="false" />
+            <element signature="e#119652#119653#0" expanded="false" />
+            <element signature="e#120273#120274#0" expanded="false" />
+            <element signature="e#120330#120331#0" expanded="false" />
+            <element signature="e#129039#129040#0" expanded="false" />
+            <element signature="e#129079#129080#0" expanded="false" />
+            <element signature="e#140317#140318#0" expanded="false" />
+            <element signature="e#140379#140380#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/util/TimeZone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="527" column="41" selection-start-line="527" selection-start-column="41" selection-end-line="527" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#31176#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#10111#10112#0" expanded="false" />
+            <element signature="e#10136#10137#0" expanded="false" />
+            <element signature="e#11868#11869#0" expanded="false" />
+            <element signature="e#11926#11927#0" expanded="false" />
+            <element signature="e#18602#18603#0" expanded="false" />
+            <element signature="e#18672#18673#0" expanded="false" />
+            <element signature="e#21817#21818#0" expanded="false" />
+            <element signature="e#21875#21876#0" expanded="false" />
+            <element signature="e#22029#22030#0" expanded="false" />
+            <element signature="e#22078#22079#0" expanded="false" />
+            <element signature="e#23369#23370#0" expanded="false" />
+            <element signature="e#23426#23427#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/time/ZoneId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="176" column="22" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#27667#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#11168#11169#0" expanded="false" />
+            <element signature="e#11223#11224#0" expanded="false" />
+            <element signature="e#11812#11813#0" expanded="false" />
+            <element signature="e#11874#11875#0" expanded="false" />
+            <element signature="e#15593#15594#0" expanded="false" />
+            <element signature="e#15632#15633#0" expanded="false" />
+            <element signature="e#22669#22670#0" expanded="false" />
+            <element signature="e#22713#22714#0" expanded="false" />
+            <element signature="e#26129#26130#0" expanded="false" />
+            <element signature="e#26170#26171#0" expanded="false" />
+            <element signature="e#26767#26768#0" expanded="false" />
+            <element signature="e#26797#26798#0" expanded="false" />
+            <element signature="e#27543#27544#0" expanded="false" />
+            <element signature="e#27601#27602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-api/1.0/camus-api-1.0.jar!/com/linkedin/camus/coders/CamusWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-api/1.0/camus-api-1.0.jar!/com/linkedin/camus/coders/MessageDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-api/1.0/camus-api-1.0.jar!/com/linkedin/camus/coders/MessageDecoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-api/1.0/camus-api-1.0.jar!/com/linkedin/camus/coders/CamusWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/joda-time/joda-time/2.3/joda-time-2.3.jar!/org/joda/time/format/DateTimeFormatter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.560641">
+          <caret line="322" column="20" selection-start-line="322" selection-start-column="20" selection-end-line="322" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/util/TimeZone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="527" column="41" selection-start-line="527" selection-start-column="41" selection-end-line="527" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#31176#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#10111#10112#0" expanded="false" />
+            <element signature="e#10136#10137#0" expanded="false" />
+            <element signature="e#11868#11869#0" expanded="false" />
+            <element signature="e#11926#11927#0" expanded="false" />
+            <element signature="e#18602#18603#0" expanded="false" />
+            <element signature="e#18672#18673#0" expanded="false" />
+            <element signature="e#21817#21818#0" expanded="false" />
+            <element signature="e#21875#21876#0" expanded="false" />
+            <element signature="e#22029#22030#0" expanded="false" />
+            <element signature="e#22078#22079#0" expanded="false" />
+            <element signature="e#23369#23370#0" expanded="false" />
+            <element signature="e#23426#23427#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/time/ZoneId.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="176" column="22" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#27667#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#11168#11169#0" expanded="false" />
+            <element signature="e#11223#11224#0" expanded="false" />
+            <element signature="e#11812#11813#0" expanded="false" />
+            <element signature="e#11874#11875#0" expanded="false" />
+            <element signature="e#15593#15594#0" expanded="false" />
+            <element signature="e#15632#15633#0" expanded="false" />
+            <element signature="e#22669#22670#0" expanded="false" />
+            <element signature="e#22713#22714#0" expanded="false" />
+            <element signature="e#26129#26130#0" expanded="false" />
+            <element signature="e#26170#26171#0" expanded="false" />
+            <element signature="e#26767#26768#0" expanded="false" />
+            <element signature="e#26797#26798#0" expanded="false" />
+            <element signature="e#27543#27544#0" expanded="false" />
+            <element signature="e#27601#27602#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="62" column="3" selection-start-line="62" selection-start-column="3" selection-end-line="62" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#140383#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#44847#44848#0" expanded="false" />
+            <element signature="e#44933#44934#0" expanded="false" />
+            <element signature="e#64001#64002#0" expanded="false" />
+            <element signature="e#64053#64054#0" expanded="false" />
+            <element signature="e#64097#64098#0" expanded="false" />
+            <element signature="e#64167#64168#0" expanded="false" />
+            <element signature="e#64226#64227#0" expanded="false" />
+            <element signature="e#64280#64281#0" expanded="false" />
+            <element signature="e#66340#66341#0" expanded="false" />
+            <element signature="e#66409#66410#0" expanded="false" />
+            <element signature="e#69447#69448#0" expanded="false" />
+            <element signature="e#69502#69503#0" expanded="false" />
+            <element signature="e#70577#70578#0" expanded="false" />
+            <element signature="e#70627#70628#0" expanded="false" />
+            <element signature="e#71057#71058#0" expanded="false" />
+            <element signature="e#71104#71105#0" expanded="false" />
+            <element signature="e#73319#73320#0" expanded="false" />
+            <element signature="e#73355#73356#0" expanded="false" />
+            <element signature="e#73857#73858#0" expanded="false" />
+            <element signature="e#73894#73895#0" expanded="false" />
+            <element signature="e#80819#80820#0" expanded="false" />
+            <element signature="e#80863#80864#0" expanded="false" />
+            <element signature="e#90398#90399#0" expanded="false" />
+            <element signature="e#90455#90456#0" expanded="false" />
+            <element signature="e#93732#93733#0" expanded="false" />
+            <element signature="e#93787#93788#0" expanded="false" />
+            <element signature="e#93933#93934#0" expanded="false" />
+            <element signature="e#93987#93988#0" expanded="false" />
+            <element signature="e#94081#94082#0" expanded="false" />
+            <element signature="e#94135#94136#0" expanded="false" />
+            <element signature="e#94310#94311#0" expanded="false" />
+            <element signature="e#94364#94365#0" expanded="false" />
+            <element signature="e#101498#101499#0" expanded="false" />
+            <element signature="e#101545#101546#0" expanded="false" />
+            <element signature="e#101589#101590#0" expanded="false" />
+            <element signature="e#101642#101643#0" expanded="false" />
+            <element signature="e#101682#101683#0" expanded="false" />
+            <element signature="e#101757#101758#0" expanded="false" />
+            <element signature="e#102997#102998#0" expanded="false" />
+            <element signature="e#103046#103047#0" expanded="false" />
+            <element signature="e#104241#104242#0" expanded="false" />
+            <element signature="e#104289#104290#0" expanded="false" />
+            <element signature="e#109287#109288#0" expanded="false" />
+            <element signature="e#109349#109350#0" expanded="false" />
+            <element signature="e#113593#113594#0" expanded="false" />
+            <element signature="e#113620#113621#0" expanded="false" />
+            <element signature="e#113734#113735#0" expanded="false" />
+            <element signature="e#113769#113770#0" expanded="false" />
+            <element signature="e#114406#114407#0" expanded="false" />
+            <element signature="e#114444#114445#0" expanded="false" />
+            <element signature="e#114728#114729#0" expanded="false" />
+            <element signature="e#114758#114759#0" expanded="false" />
+            <element signature="e#115531#115532#0" expanded="false" />
+            <element signature="e#115568#115569#0" expanded="false" />
+            <element signature="e#116705#116706#0" expanded="false" />
+            <element signature="e#116750#116751#0" expanded="false" />
+            <element signature="e#117196#117197#0" expanded="false" />
+            <element signature="e#117224#117225#0" expanded="false" />
+            <element signature="e#117963#117964#0" expanded="false" />
+            <element signature="e#118020#118021#0" expanded="false" />
+            <element signature="e#119595#119596#0" expanded="false" />
+            <element signature="e#119652#119653#0" expanded="false" />
+            <element signature="e#120273#120274#0" expanded="false" />
+            <element signature="e#120330#120331#0" expanded="false" />
+            <element signature="e#129039#129040#0" expanded="false" />
+            <element signature="e#129079#129080#0" expanded="false" />
+            <element signature="e#140317#140318#0" expanded="false" />
+            <element signature="e#140379#140380#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/text/SimpleDateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7454128">
+          <caret line="1029" column="18" selection-start-line="1029" selection-start-column="18" selection-end-line="1029" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/linkedin/camus/camus-etl-kafka/1.0/camus-etl-kafka-1.0.jar!/com/linkedin/camus/etl/kafka/mapred/EtlRecordReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///opt/java/jdk1.8.0_45/src.zip!/java/io/FilterOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="95" column="16" selection-start-line="95" selection-start-column="16" selection-end-line="95" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conversantmedia/tutorial/camus/CsvMessageDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="58" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/conversantmedia/tutorial/camus/CsvRecordWriterProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6666667">
+          <caret line="107" column="33" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
