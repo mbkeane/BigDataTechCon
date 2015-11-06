@@ -1,5 +1,5 @@
 # Download Camus
-git clone https://github.com/linkedin/camus.git
+git clone https://github.com/confluentinc/camus.git
 
 Download Hadoop
 http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-2.7.1/hadoop-2.7.1.tar.gz
@@ -17,7 +17,8 @@ cd /tmp
 cd /tmp/BigDataTechCon/flume/
 mvn install
 
-cd /tmp/BigDataTechCon/camus/
+cd /tmp/camus/
+git checkout v1.0.1
 mvn install
 
 
