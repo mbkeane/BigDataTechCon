@@ -22,3 +22,7 @@ Based on the success we had integrating Flume, Kafka and Camus into our log proc
 
 
 The integration of Flume + Kafka + Camus does require implementing a couple Camus interfaces.  At Conversant we have created quite a few Flume pluggins as well.  My goal with this tutorial is to get users up and running with Flume, Kafka and Camus in a development environment as quickly as possible.  While implementing two Camus interfaces is all it would take to demonstrate a full data collection pipeline I have included two maven projects in this repo, "flume" and "camus".  An interesting "Flafka" caveat prompted me to also make a simple flume pluggin (Interceptor interface implementation).  More on this later in the tutorial. Also, I wanted to get users up and running in an environment where they could step through their code in a debuggger.  Kafka is used straight out of the box.  Flume will from within your IDE.  Camus jobs being map reduce job must be submitted to hadoop, The Camus job will run in local mode with a demonstration of running in local mode with remote debugging enabled.
+
+
+
+**NOTE** this tutorial is not meant to be an indepth study of Flume, Kafka or Camus.  For a better understanding of Flume and its use cases I recommend Steve Hoffman's [Apache Flume: Distributed Log Collection for Hadoop - Second Edition](http://www.amazon.com/Apache-Flume-Distributed-Collection-Hadoop/dp/1784392170/ref=sr_1_2?s=books&ie=UTF8&qid=1446338183&sr=1-2&keywords=flume).
