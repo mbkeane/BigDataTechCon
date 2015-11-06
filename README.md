@@ -52,7 +52,8 @@ tar -xzvf ~/Downloads/hadoop-2.7.1.tar.gz
 
 *NOTE* this tutorial is not meant to be an indepth study of Flume, Kafka or Camus.  For a better understanding of Flume and its use cases I recommend Steve Hoffman's [Apache Flume: Distributed Log Collection for Hadoop - Second Edition](http://www.amazon.com/Apache-Flume-Distributed-Collection-Hadoop/dp/1784392170/ref=sr_1_2?s=books&ie=UTF8&qid=1446338183&sr=1-2&keywords=flume).
 
-### Anatomy of a Flume Agent and a Flume Flow
+### The basic anatomy of a Flume Agent and a Flume Flow
+
 
 Exercise 1  Flume Spooling Agent sink to Kafka Topic.
 
