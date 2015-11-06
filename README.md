@@ -11,10 +11,10 @@ Based on the success we had integrating Flume, Kafka and Camus into our log proc
 The integration of Flume + Kafka + Camus does require implementing a couple Camus interfaces.  At Conversant we have created quite a few Flume pluggins as well.  My goal with this tutorial is to get users up and running with Flume, Kafka and Camus in a development environment as quickly as possible.  While implementing two Camus interfaces is all it would take to demonstrate a full data collection pipeline I have included two maven projects in this repo, "flume" and "camus".  An interesting "Flafka" caveat prompted me to also make a simple flume pluggin (Interceptor interface implementation).  More on this later in the tutorial. Also, I wanted to get users up and running in an environment where they could step through their code in a debuggger.  Kafka is used straight out of the box.  Flume will from within your IDE.  Camus jobs being map reduce job must be submitted to hadoop, The Camus job will run in local mode with a demonstration of running in local mode with remote debugging enabled.
 
 ### Requirements
-[x]  Linux environment.  All the work in here has been done on a laptop running Ubuntu in IntelliJ IDE.
-[x]  Maven - both project are maven projects.
-[x]  Camus - To my knowledge Camus is not in an public Maven repository.  Conversant added Camus to their internal repository and if your organization uses Camus you'll probably want to do the same.
-[x] Kafka - To really demonstrate Flume's Kafka integration we will use Kafka sources, channels and sinks for Flume.
-[x] Hadoop - you need an Hadoop client to run Camus.
+- [x]  Linux environment.  All the work in here has been done on a laptop running Ubuntu in IntelliJ IDE.
+- [x]  Maven - both project are maven projects.
+- [x]  Camus - To my knowledge Camus is not in an public Maven repository.  Conversant added Camus to their internal repository and if your organization uses Camus you'll probably want to do the same.
+- [x] Kafka - To really demonstrate Flume's Kafka integration we will use Kafka sources, channels and sinks for Flume.
+- [x] Hadoop - you need an Hadoop client to run Camus.
 
 In this tutorial I do all the work in /tmp/,  I simply extract hadoop and kafka from /tmp/.  Since /tmp/ is removed each time I reboot nothing is left cluttering up my disk drive when I reboot.  If you are going to continue working with this over time you will want to replace /tmp/ with a more permanent location.  All configurations and paths in this tutorial give explicit full paths (ex /tmp/BigDataTechCon/config/log4j.properties).  If you are running out of someplace other than /tmp/ you  will need to update your paths accordingly.
