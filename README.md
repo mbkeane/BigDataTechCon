@@ -18,3 +18,11 @@ The integration of Flume + Kafka + Camus does require implementing a couple Camu
 - [x] Hadoop - you need an Hadoop client to run Camus.
 
 In this tutorial I do all the work in /tmp/,  I simply extract hadoop and kafka from /tmp/.  Since /tmp/ is removed each time I reboot nothing is left cluttering up my disk drive when I reboot.  If you are going to continue working with this over time you will want to replace /tmp/ with a more permanent location.  All configurations and paths in this tutorial give explicit full paths (ex /tmp/BigDataTechCon/config/log4j.properties).  If you are running out of someplace other than /tmp/ you  will need to update your paths accordingly.
+
+### Downloads
+- [x]  Camus git repository
+{% highlight bash %}
+git clone https://github.com/linkedin/camus.git
+cd camus
+mvn install
+{% endhighlight %}
