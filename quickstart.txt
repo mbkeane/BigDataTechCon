@@ -1,5 +1,5 @@
 # Download Camus
-https://github.com/linkedin/camus.git
+git clone https://github.com/linkedin/camus.git
 
 Download Hadoop
 http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-2.7.1/hadoop-2.7.1.tar.gz
@@ -44,6 +44,7 @@ bin/kafka-topics.sh --list --zookeeper localhost:2181
 
 # Topics shell
 ## Create topics
+cd /tmp/kafka_2.10-0.8.2.2
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic spooling_agent_channel
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic data_in
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic filtered_channel
@@ -101,7 +102,7 @@ cd /tmp/BigDataTechCon
 
 ####################
 # Sending data
-mkdir /tmp/BigDataTechCon/data
+cd /tmp/BigDataTechCon/
 cp /tmp/BigDataTechCon/data/crime_data_1.csv /tmp/BigDataTechCon/spool/.
 
 
