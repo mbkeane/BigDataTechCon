@@ -1,4 +1,5 @@
-
+# Download Camus
+https://github.com/linkedin/camus.git
 
 Download Hadoop
 http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-2.7.1/hadoop-2.7.1.tar.gz
@@ -109,7 +110,7 @@ Camusing it
 ####################################################################################################
 
 # Hadoop shell
-bin/hadoop jar /tmp/BigDataTechCon/configs/camus-tutorial.jar -P /tmp/BigDataTechCon/configs/camus.properties -Dlog4j.configuration=/home/mkeane/bigdatatechcon/configs/log4j.properties -DagentName=camus
+bin/hadoop jar /tmp/BigDataTechCon/configs/camus-tutorial.jar -P /tmp/BigDataTechCon/camus/camus.properties -Dlog4j.configuration=/home/mkeane/bigdatatechcon/configs/target/log4j.properties -DagentName=camus
 
 # If you configured your email address in /tmp/BigDataTechCon/configs/camus.properties go check your email
 
