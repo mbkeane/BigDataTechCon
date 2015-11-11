@@ -1,7 +1,6 @@
 package com.conversantmedia.tutorial.camus;
 
 import com.linkedin.camus.coders.CamusWrapper;
-import com.linkedin.camus.coders.Message;
 import com.linkedin.camus.coders.MessageDecoder;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -17,7 +16,7 @@ import org.apache.log4j.Logger;
  * <p>
  * @author Mike Keane <mkeane@conversantmedia.com>
  */
-public class CsvMessageDecoder extends MessageDecoder<Message, String> {
+public class CsvMessageDecoder extends MessageDecoder<byte[], String> {
 
 	private static final Logger log = Logger.getLogger(CsvMessageDecoder.class);
 	protected DecoderFactory decoderFactory;
@@ -49,11 +48,11 @@ public class CsvMessageDecoder extends MessageDecoder<Message, String> {
 	}
 
 	@Override
-	public CamusWrapper<String> decode(Message message) {
+	public CamusWrapper<String> decode(byte[] message) {
 		long timestamp = 0;
 		String payloadString;
 
-		payloadString = new String(message.getPayload());
+		payloadString = new String(message);
 		String[] array = payloadString.split(",");
 
 		timestamp = getTimeStamp(array[0]);
