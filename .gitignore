@@ -1,0 +1,24 @@
+# Lines that start with '#' are comments.
+*~
+*.diff
+*#
+.eclipse
+*/bin
+nb-configuration.xml
+nbactions*.xml
+
+# Maven #
+#########
+target/
+
+# Intellij #
+############
+*.iml
+*.iws
+.idea/
+
+# Eclipse #
+###########
+.classpath
+.project
+.settings/
