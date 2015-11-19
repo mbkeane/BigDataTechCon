@@ -113,9 +113,10 @@ Camusing it
 
 # Hadoop shell
 
-bin/hadoop jar /tmp/BigDataTechCon/camus/target/camus-tutorial.jar -P /tmp/BigDataTechCon/configs/camus.properties -Dlog4j.configuration=/tmp/BigDataTechCon/configs/target/log4j.properties -DagentName=camus
 
-bin/hadoop jar /tmp/BigDataTechCon/camus/target/camus-tutorial.jar -P /tmp/BigDataTechCon/configs/camus2.properties -Dlog4j.configuration=/tmp/BigDataTechCon/configs/target/log4j.properties
+bin/hadoop jar /tmp/BigDataTechCon/camus/target/camus-tutorial.jar -P /tmp/BigDataTechCon/configs/camus.properties -Dlog4j.configuration=/tmp/BigDataTechCon/configs/target/log4j.properties
+
+
 
 # If you configured your email address in /tmp/BigDataTechCon/configs/camus.properties go check your email
 
