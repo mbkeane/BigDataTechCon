@@ -11,6 +11,12 @@
 		<jdk.version>1.7</jdk.version>
 	</properties>
 
+    <repositories>
+        <repository>
+            <id>confluent</id>
+            <url>http://packages.confluent.io/maven/</url>
+        </repository>
+    </repositories>	
 <dependencies>
 
 		<!-- Camus dependencies -->
