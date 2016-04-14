@@ -1,0 +1,67 @@
+	<dependencies>
+
+		<dependency>
+			<groupId>org.apache.flume</groupId>
+			<artifactId>flume-ng-embedded-agent</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.flume</groupId>
+			<artifactId>flume-ng-sdk</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.flume</groupId>
+			<artifactId>flume-ng-configuration</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-log4j12</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.flume</groupId>
+			<artifactId>flume-ng-core</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-log4j12</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.flume</groupId>
+			<artifactId>flume-ng-node</artifactId>
+			<exclusions>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-log4j12</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.flume.flume-ng-sinks</groupId>
+					<artifactId>flume-irc-sink</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.flume.flume-ng-sinks</groupId>
+					<artifactId>flume-hdfs-sink</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.flume.flume-ng-channels</groupId>
+					<artifactId>flume-spillable-memory-channel</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.apache.flume.flume-ng-channels</groupId>
+					<artifactId>flume-jdbc-channel</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.flume.flume-ng-channels</groupId>
+			<artifactId>flume-file-channel</artifactId>
+		</dependency>
+
+	</dependencies>
